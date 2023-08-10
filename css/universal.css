@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    border-bottom: 1px solid #000000;
+}
+
+.about-section {
+    margin-bottom: -120px;
+}
+
+#cta-section {
+    height: 47rem;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#cta-section #content {
+    margin-top: -200px;
+}
+
+#cta-section #content img {
+    width: 100%;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.title h5 {
+    color: #1D2130;
+    font-weight: 700;
+    margin-left: -20px;
+}
+
+.Text {
+    margin-bottom: -50px;
+    text-align: left;
+    color: #1D2130;
+}
+
+.Text h5 {
+    font-weight: 700;
+}
+
+.Text p {
+    color: #1D2130;
+}
+
+.awards-section {
+    height: 15rem;
+    margin-top: 50px;
+}
+
+.awards {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.awards h5 {
+    margin-top: 0;
+    font-weight: 700;
+}
+
+/* .journy-section */
+.journy-section {
+    height: 30rem;
+    margin-top: 150px;
+}
+
+.journy {
+    background-color: #F2C94C;
+    border-radius: 10px;
+}
+
+.journy h5 {
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+.journy .status {
+    display: flex;
+    flex-direction: row;
+    margin-left: -28px;
+}
+
+.journy .status h2 {
+    font-weight: 700;
+    margin-top: -100px;
+}
+
+.our-journy {
+    margin: 30px;
+}
+
+.journy img {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 80%;
+}
+/* .our-team-section */
+.our-team-section{
+    height: 70rem;
+    width: 100%;
+}
+.team-header{
+    margin-top: 50px;
+}
+.our-team-member{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.our-team img{
+    margin-top: 50px;
+    width: 80%;
+}
+.our-team h5{
+    margin-top: 5px;
+    font-weight: 700;
+}
+.our-team p{
+    color: #000000;
+}
+.our-team i{
+    font-size: 20px;
+    margin: 12px;
+    margin-top: 0px;
+}
+.our-team i:hover{
+    color: white;
+    background-color: coral;
+    border-radius: 50px;
+    padding: 10px;
+    transition:  1s;
+    transform: rotate(360deg);
+}
+
+
+
+/* .what we do */
+.what-we-do-section{
+    height: 32rem;
+    background-color: #FCEDC6;
+}
+.what-we-do-section h1{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.feature{
+    margin-top: 50px;
+}
+.feature h4{
+    text-align: left;
+    font-weight: 700;
+}
+.feature p{
+    color: #000000;
+}
+.feature img{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    /* .about-section */
+    .about-section {
+        height: 38rem;
+    }
+    
+    .about-section .line {
+        margin-top: -80px;
+    }
+
+    .about-section h1 {
+        margin-top: -20px;
+        font-size: 25px;
+    }
+
+    .about-section h4 {
+        margin-top: -240px;
+    }
+
+    .about-section p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .about-section h5 {
+        margin-top: -240px;
+        font-size: 20px;
+    }
+    /* .cta-section */
+    #cta-section {
+        height: 64rem;
+        margin-bottom: 20px;
+    }
+
+    #cta-section #content img {
+        margin-top: -50px;
+        width: 90%;
+        margin: 27px;
+    }
+
+    .Text {
+        margin-top: -20px;
+    }
+
+    .Text h5 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Text h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Text p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    /* medals-section */
+    .awards-section {
+        height: 50rem;
+    }
+
+    .awards-section h1 {
+        font-size: 35px;
+        margin-top: -10px;
+    }
+
+    .awards img {
+        margin: 20px;
+        width: 20%;
+    }
+
+    /* .journy-section */
+    .journy {
+        text-align: center;
+    }
+
+    .journy .status {
+        margin-top: 100px;
+    }
+
+    .journy img {
+        width: 90%;
+        margin: 27px;
+    }
+    /* .our-team-section */
+    .our-team-section{
+        height: 150rem;
+    }
+    .our-team-member{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .our-team img{
+        width: 40%;
+        margin-top: 0px;
+    }
+    /* events-section */
+    .events {
+        margin-left: 8px;
+    }
+
+    /* footer */
+    .footer .group {
+        margin-left: 20px;
+    }
+
+    .foot-text {
+        margin-left: 30px;
+    }
+
+    .get {
+        margin-left: 35px;
+    }
+}

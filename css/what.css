@@ -1,0 +1,37 @@
+@media (max-width:600px) {
+
+    /* .about-section */
+    .about-section h4 {
+        margin-top: -170px;
+    }
+
+    /* .what-we-do-section */
+    .what-we-do-section {
+        text-align: center;
+        height: 80rem;
+    }
+
+    .what-we-do-section h4 {
+        text-align: center;
+    }
+
+    /* .cta-section */
+    .cta-section {
+        height: 120rem;
+        margin-bottom: -1100px;
+    }
+
+    .centered {
+        margin-top: -200px;
+    }
+
+    /* .events */
+    .event-section {
+        margin-top: -50px;
+    }
+
+    /* .footer */
+    .get {
+        margin-left: -10px;
+    }
+}
